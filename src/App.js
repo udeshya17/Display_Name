@@ -16,12 +16,6 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault(); 
-    if (firstName.trim() === '' || lastName.trim() === '') {
-      setError('Please enter both first name and last name.'); // Provide user feedback when required fields are not filled
-      setIsClick(false);
-      return;
-    }
-
     setError('');
     setIsClick(true);
   };
