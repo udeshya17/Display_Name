@@ -26,7 +26,6 @@ function App() {
         <input
           type="text"
           required
-          value={firstName}
           onChange={handleFirst}
         />
         <br />
@@ -34,12 +33,12 @@ function App() {
         <input
           type="text"
           required
-          value={lastName}
           onChange={handleSecond}
         />
         <br />
         <button>Submit</button> 
       </form>
+      <br />
       {isClick ? `Full Name: ${firstName} ${lastName}` : ''}
     </div>
   );
