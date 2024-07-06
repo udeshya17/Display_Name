@@ -38,9 +38,8 @@ function App() {
           onChange={handleSecond}
         />
         <br />
-        <button type="submit">Submit</button> 
+        <button>Submit</button> 
       </form>
-      <br />
       {isClick ? `Full Name: ${firstName} ${lastName}` : ''}
     </div>
   );
