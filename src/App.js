@@ -15,10 +15,6 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (firstName === '' || lastName === '') {
-      alert('Please enter both first name and last name.');
-      return;
-    }
     setIsClick(true);
   };
 
